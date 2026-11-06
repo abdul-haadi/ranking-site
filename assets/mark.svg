@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512"><title>Ranking by BobWork</title><defs>
+<linearGradient id="rkg" gradientUnits="userSpaceOnUse" x1="120" y1="380" x2="400" y2="130"><stop offset="0" stop-color="#16CFEA"/><stop offset=".3" stop-color="#4C75F6"/><stop offset=".6" stop-color="#B33EEB"/><stop offset=".8" stop-color="#EC5EA5"/><stop offset="1" stop-color="#F5A34B"/></linearGradient></defs>
+<rect width="512" height="512" rx="112" fill="#0F1535"/>
+<path d="M132 372L222 282L282 330L368 182" fill="none" stroke="url(#rkg)" stroke-width="38" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="372" cy="160" r="30" fill="url(#rkg)"/></svg>

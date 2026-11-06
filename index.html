@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ranking: get recommended by ChatGPT and AI search</title>
+<meta name="description" content="Ranking asks ChatGPT, Perplexity, Gemini, Claude and Google's AI your buyers' questions, shows who they name, and tells you what to change so they name you. From $1.">
+<link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/motion.css">
+<script src="assets/site.js" defer></script>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html" aria-label="Ranking by BobWork, home">
+      <img src="assets/mark.svg" alt="" width="30" height="30">
+      <span><span class="brand-name">Ranking</span><span class="brand-by">BY BOBWORK</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#product">Product</a>
+      <a href="#tools">SEO tools</a>
+      <a href="setup.html">Done for you</a>
+      <a href="https://ranking.bobwork.ai/developers">API</a>
+      <a href="https://ranking.bobwork.ai/blog">Blog</a>
+      <a href="pricing.html">Pricing</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="signin" href="https://ranking.bobwork.ai/login">Sign in</a>
+      <a class="btn btn-primary btn-sm" href="https://ranking.bobwork.ai/login">Start for $1</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <div class="mobile-menu">
+      <a href="#product">Product</a>
+      <a href="#tools">SEO tools</a>
+      <a href="setup.html">Done for you</a>
+      <a href="https://ranking.bobwork.ai/developers">API</a>
+      <a href="https://ranking.bobwork.ai/blog">Blog</a>
+      <a href="pricing.html">Pricing</a>
+      <div class="btns">
+        <a class="btn btn-primary" href="https://ranking.bobwork.ai/login">Start for $1</a>
+        <a class="btn btn-ghost" href="https://ranking.bobwork.ai/login">Sign in</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero dark">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="grid"></div>
+    <div class="glow g1"></div><div class="glow g2"></div><div class="glow g3"></div><div class="glow g4"></div>
+  </div>
+  <div class="container">
+    <div class="hero-copy">
+      <a class="pill rise" href="#proof"><span class="tag">NEW</span><span>Tested on our own brand. <b>See results</b> →</span></a>
+      <h1 class="rise" data-d="1">Get recommended<br>by <span class="rotator" aria-label="ChatGPT">
+        <span class="grad-text on">ChatGPT.</span>
+        <span class="grad-text" aria-hidden="true">Perplexity.</span>
+        <span class="grad-text" aria-hidden="true">Gemini.</span>
+        <span class="grad-text" aria-hidden="true">Claude.</span>
+        <span class="grad-text" aria-hidden="true">Google AI.</span>
+      </span></h1>
+      <p class="lead rise" data-d="2">Ranking asks six AI engines the questions your buyers ask, shows who they recommend, and tells you exactly what to change so they name you.</p>
+      <div class="hero-ctas rise" data-d="3">
+        <a class="btn btn-primary btn-lg" href="https://ranking.bobwork.ai/login">Start for $1 <span class="arrow">→</span></a>
+        <a class="btn btn-ghost btn-lg" href="setup.html">Set it up for me</a>
+      </div>
+      <div class="hero-note rise" data-d="3">
+        <span><svg width="14" height="14" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>No plan needed</span>
+        <span><svg width="14" height="14" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Credit never expires</span>
+        <span><svg width="14" height="14" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Plans from $39/mo</span>
+      </div>
+    </div>
+
+    <div class="stage rise" data-d="2" id="product">
+      <div class="window">
+        <div class="window-bar"><div class="dots"><i></i><i></i><i></i></div><div class="url">ranking.bobwork.ai/app/p/chatdaddy/ai</div></div>
+        <img src="https://ranking.bobwork.ai/img/ui-matrix.webp" width="1536" height="763" alt="Ranking's AI visibility grid: each buyer question down the side, each AI engine across the top, with the brand's position where it was named.">
+      </div>
+      <div class="stage-cards">
+        <div class="float-card fc-answer">
+          <div class="fc-label">Prompt · Alternatives</div>
+          <div class="fc-q">“What are the best alternatives to Wati?”</div>
+          <div class="eng-row"><img src="https://ranking.bobwork.ai/img/logos/chatgpt.png" alt="">ChatGPT<span class="st yes">#3 · named, cited</span></div>
+          <div class="ranklist"><span>1 Wati</span><span>2 Interakt</span><span class="me">3 ChatDaddy</span><span>4 AiSensy</span><span>+6</span></div>
+          <div class="eng-row"><img src="https://ranking.bobwork.ai/img/logos/perplexity.svg" alt="">Perplexity<span class="st">Not named</span></div>
+          <div class="eng-row"><img src="https://ranking.bobwork.ai/img/logos/gemini.svg" alt="">Gemini<span class="st">Not named</span></div>
+          <div class="eng-row"><img src="https://ranking.bobwork.ai/img/logos/claude.svg" alt="">Claude<span class="st">Not named</span></div>
+        </div>
+        <div class="float-card fc-alert">
+          <div class="top">
+            <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg></div>
+            <div><div class="t">ChatGPT sent you 14 visits and 2 sign-ups</div><div class="s">AI traffic alert · from your GA4</div></div>
+          </div>
+          <div class="bars">
+            <div class="bar-row"><span>ChatGPT</span><span class="b"><i style="width:100%"></i></span><span class="n">14</span></div>
+            <div class="bar-row"><span>Perplexity</span><span class="b"><i style="width:36%"></i></span><span class="n">5</span></div>
+            <div class="bar-row"><span>Gemini</span><span class="b"><i style="width:21%"></i></span><span class="n">3</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="stage-fade"></div>
+    </div>
+  </div>
+
+  <div class="engines">
+    <div class="container">
+      <p class="engines-title">Every prompt runs on the six engines your buyers actually ask, with web search on.</p>
+      <div class="engine-list">
+        <span class="engine"><span class="lg"><img src="https://ranking.bobwork.ai/img/logos/chatgpt.png" alt=""></span>ChatGPT</span>
+        <span class="engine"><span class="lg"><img src="https://ranking.bobwork.ai/img/logos/perplexity.svg" alt=""></span>Perplexity</span>
+        <span class="engine"><span class="lg"><img src="https://ranking.bobwork.ai/img/logos/gemini.svg" alt=""></span>Gemini</span>
+        <span class="engine"><span class="lg"><img src="https://ranking.bobwork.ai/img/logos/claude.svg" alt=""></span>Claude</span>
+        <span class="engine"><span class="lg"><img src="https://ranking.bobwork.ai/img/logos/google.svg" alt=""></span>AI Overviews</span>
+        <span class="engine"><span class="lg"><img src="https://ranking.bobwork.ai/img/logos/google.svg" alt=""></span>AI Mode</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROBLEM ============ -->
+<section class="section">
+  <div class="container problem">
+    <div class="reveal">
+      <span class="eyebrow">The problem</span>
+      <h2 style="margin-top:18px">The shortlist is written before anyone visits your site.</h2>
+    </div>
+    <ol class="steps-list">
+      <li class="reveal"><span class="n">01</span><div><h3>Buyers ask an assistant</h3><p>“Which provider should I use?” now goes to ChatGPT or Google’s AI answer, not a page of ten links.</p></div></li>
+      <li class="reveal" data-d="1"><span class="n">02</span><div><h3>It names three or four brands</h3><p>Usually pulled from comparison pages and reviews, not from your own site.</p></div></li>
+      <li class="reveal" data-d="2"><span class="n">03</span><div><h3>You never see the miss</h3><p>If you aren’t named there’s no visit to lose, so nothing shows up in your analytics.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ PROOF ============ -->
+<section class="section wash" id="proof">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Our own numbers</span>
+      <h2 class="h-section">We ran it on our own brand first.</h2>
+      <p class="lead">ChatDaddy is a WhatsApp CRM we also build. In October 2026 we asked six AI engines 10 buyer questions. Here’s what came back, unpolished.</p>
+    </div>
+    <div class="stats">
+      <div class="stat reveal">
+        <div class="big"><span data-count="15">15</span>%</div>
+        <p><b>9 of 60</b> AI answers named ChatDaddy. With this few answers, the true rate is somewhere between 8% and 26%.</p>
+        <div class="meter" aria-hidden="true"><span class="ci" style="left:16%;width:36%"></span><span class="pt" style="left:30%"></span></div>
+        <div class="mono muted" style="font-size:12px;display:flex;justify-content:space-between"><span>0%</span><span>25%</span><span>50%</span></div>
+      </div>
+      <div class="stat reveal" data-d="1">
+        <div class="big"><span data-count="3">3</span><small> of 54</small></div>
+        <p>when the question didn’t already contain our name. “ChatDaddy vs Wati” inflates the headline, so we show this too.</p>
+        <div class="dotgrid" aria-hidden="true" id="dotgrid"></div>
+      </div>
+      <div class="stat reveal" data-d="2">
+        <div class="big"><span data-count="5">5</span>×</div>
+        <p>Wati, a competitor, was named about five times as often as us across the same 60 answers.</p>
+        <div class="vs" aria-hidden="true">
+          <div><span>Wati</span><i style="width:100%;background:var(--ink)"></i></div>
+          <div><span>ChatDaddy</span><i style="width:20%;background:var(--purple)"></i></div>
+        </div>
+      </div>
+    </div>
+    <div class="minis">
+      <div class="mini reveal"><div class="k">AI Overviews citing us</div><div class="v">1 of 11 keywords</div></div>
+      <div class="mini reveal" data-d="1"><div class="k">Site health</div><div class="v">81 / 100</div></div>
+      <div class="mini reveal" data-d="2"><div class="k">AI readiness</div><div class="v">89 / 100</div></div>
+      <div class="mini reveal" data-d="3"><div class="k">Top fix found</div><div class="v">Blog pages lack an H1</div></div>
+    </div>
+    <p class="proof-note">Every rate in Ranking comes with a 95% Wilson interval, so ten prompts can’t pass for a precise number. Every answer is stored in full, so any figure traces back to the answers behind it.</p>
+  </div>
+</section>
+
+<!-- ============ HOW ============ -->
+<section class="section dark">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">How it works</span>
+      <h2 class="h-section">Question to fix in three steps.</h2>
+      <p class="lead">Start with one prompt and $1. Nothing runs that you didn’t choose.</p>
+    </div>
+    <div class="how">
+      <div class="how-card reveal">
+        <span class="num">01</span>
+        <h3>Add your site and buyer questions</h3>
+        <p>Paste your domain. We suggest prompts from your competitors and keywords; you keep the ones a buyer would really ask.</p>
+        <span class="chip dark-chip">Prompt suggestions included</span>
+      </div>
+      <div class="how-card reveal" data-d="1">
+        <span class="num">02</span>
+        <h3>Six engines answer. We keep every one.</h3>
+        <p>See who was named, in what order, and which pages were cited, across ChatGPT, Perplexity, Gemini, Claude and Google’s AI.</p>
+        <span class="chip dark-chip">≈ $0.14 per prompt on all six</span>
+      </div>
+      <div class="how-card reveal" data-d="2">
+        <span class="num">03</span>
+        <h3>Fix what’s missing, watch the rate</h3>
+        <p>The site audit, Get listed checklist and pages to pitch say what to change. Re-run weekly; GA4 alerts tell you when AI sends visits.</p>
+        <span class="chip dark-chip">Audit and alerts included</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BENTO ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">What you get</span>
+      <h2 class="h-section">Everything between the answer and the fix.</h2>
+    </div>
+    <div class="bento">
+      <article class="tile spot span-4 tint-blue reveal">
+        <div class="tile-body">
+          <span class="k">01 · TRACK</span>
+          <h3>See who AI names when your buyers ask.</h3>
+          <p>Who was named, in what order, whether your site was linked, and your share of voice against the rivals you pick. Full answer text, your brand highlighted.</p>
+          <a class="link-arrow" href="https://ranking.bobwork.ai/features/ai-visibility">How AI visibility works →</a>
+        </div>
+        <div class="tile-media"><div class="shot"><img src="https://ranking.bobwork.ai/img/ui-answer.webp" width="1536" height="1179" alt="A stored ChatGPT answer with the brands it named highlighted." loading="lazy" style="max-height:360px;object-fit:cover;object-position:top"></div></div>
+      </article>
+      <article class="tile spot span-2 tint-purple reveal" data-d="1">
+        <div class="tile-body">
+          <span class="k">02 · PITCH</span>
+          <h3>Find the pages that pick your rivals.</h3>
+          <p>Pages AI cites when it names a competitor but never you. That’s your outreach list.</p>
+        </div>
+        <div class="tile-media"><div class="shot"><img src="https://ranking.bobwork.ai/img/ui-gap.webp" width="1200" height="1093" alt="List of comparison pages AI engines cite for competitors." loading="lazy" style="max-height:300px;object-fit:cover;object-position:top"></div></div>
+      </article>
+      <article class="tile spot span-2 tint-green reveal">
+        <div class="tile-body">
+          <span class="k">03 · GET LISTED</span>
+          <h3>Be where AI looks.</h3>
+          <p>A checklist for each place AI draws on. We auto-check what we can.</p>
+        </div>
+        <div style="padding:20px 32px 24px">
+          <ul class="checklist">
+            <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>GPTBot, PerplexityBot, ClaudeBot access</li>
+            <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Bing and Google index, sitemap</li>
+            <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Business profiles, merchant feeds</li>
+            <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Wikidata, review sites, Reddit</li>
+          </ul>
+        </div>
+        <div class="listed-score" aria-hidden="true">
+          <div class="box">
+            <div class="row"><span>Example project: auto checks passed</span><b>9 / 12</b></div>
+            <div class="track"><i></i></div>
+            <div class="row" style="font-size:13px"><span>Next: claim your Bing Places profile</span></div>
+          </div>
+        </div>
+        <a class="link-arrow" style="padding:0 32px 28px;font-size:15px" href="https://ranking.bobwork.ai/features/get-listed">How Get listed works →</a>
+      </article>
+      <article class="tile spot span-4 reveal" data-d="1">
+        <div class="tile-body">
+          <span class="k">04 · ALERTS</span>
+          <h3>Know the day ChatGPT sends you a customer.</h3>
+          <p>Connect GA4. Each day we check for visits and sign-ups from ChatGPT, Perplexity, Gemini, Claude and Copilot. If there are some, we email you. If not, silence.</p>
+        </div>
+        <div class="pad">
+          <div class="email">
+            <div class="hd">
+              <div><span>From</span><b>Ranking by BobWork</b></div>
+              <div><span>Subject</span><b>ChatGPT sent you 14 visits and 2 sign-ups yesterday</b></div>
+            </div>
+            <table>
+              <thead><tr><th>SOURCE</th><th>VISITS</th><th>SIGN-UPS</th></tr></thead>
+              <tbody>
+                <tr><td><img src="https://ranking.bobwork.ai/img/logos/chatgpt.png" alt="">ChatGPT</td><td>14</td><td>2</td></tr>
+                <tr><td><img src="https://ranking.bobwork.ai/img/logos/perplexity.svg" alt="">Perplexity</td><td>5</td><td>0</td></tr>
+                <tr><td><img src="https://ranking.bobwork.ai/img/logos/gemini.svg" alt="">Gemini</td><td>3</td><td>0</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SEO TOOLS ============ -->
+<section class="section dark" id="tools">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">SEO tools</span>
+      <h2 class="h-section">Plus the SEO that feeds AI answers.</h2>
+      <p class="lead">AI engines read the web Google ranks. See where you stand there, and what to fix.</p>
+    </div>
+    <div class="tools" data-tabs>
+      <div class="tool-tabs" role="tablist" aria-label="SEO tools">
+        <button class="tool-tab" role="tab" aria-selected="true" aria-controls="tv-rank" id="tt-rank"><span class="t">Rank tracker</span><span class="d">Daily top-100 positions and SERP features, plus whether the AI Overview cites you.</span></button>
+        <button class="tool-tab" role="tab" aria-selected="false" tabindex="-1" aria-controls="tv-audit" id="tt-audit"><span class="t">Site audit <span class="badge">FREE</span></span><span class="d">Up to 200 pages crawled without JavaScript, the way AI crawlers read them.</span></button>
+        <button class="tool-tab" role="tab" aria-selected="false" tabindex="-1" aria-controls="tv-kw" id="tt-kw"><span class="t">Keyword research</span><span class="d">Volume, difficulty, CPC and intent. Send question keywords straight to AI tracking.</span></button>
+        <button class="tool-tab" role="tab" aria-selected="false" tabindex="-1" aria-controls="tv-comp" id="tt-comp"><span class="t">Competitors</span><span class="d">Estimated traffic, top pages and the keywords they win that you don’t.</span></button>
+        <button class="tool-tab" role="tab" aria-selected="false" tabindex="-1" aria-controls="tv-bl" id="tt-bl"><span class="t">Backlinks</span><span class="d">Referring domains, new and lost links, and sites that link to rivals but not you.</span></button>
+        <button class="tool-tab" role="tab" aria-selected="false" tabindex="-1" aria-controls="tv-rep" id="tt-rep"><span class="t">Client report</span><span class="d">One page with your agency’s name on it: rankings, AI visibility and fixes, as a PDF.</span></button>
+      </div>
+      <div class="tool-view">
+        <div class="window on" id="tv-rank" role="tabpanel" aria-labelledby="tt-rank"><div class="window-bar"><div class="dots"><i></i><i></i><i></i></div><div class="url">…/chatdaddy/rankings</div></div><img src="https://ranking.bobwork.ai/img/ui-rank-detail.webp" width="1536" height="1253" alt="Rank tracker detail for one keyword" loading="lazy"></div>
+        <div class="window" id="tv-audit" role="tabpanel" aria-labelledby="tt-audit"><div class="window-bar"><div class="dots"><i></i><i></i><i></i></div><div class="url">…/chatdaddy/audit</div></div><img src="https://ranking.bobwork.ai/img/ui-audit.webp" width="1536" height="641" alt="Site audit with AI readiness checks" loading="lazy"></div>
+        <div class="window" id="tv-kw" role="tabpanel" aria-labelledby="tt-kw"><div class="window-bar"><div class="dots"><i></i><i></i><i></i></div><div class="url">…/chatdaddy/keywords</div></div><img src="https://ranking.bobwork.ai/img/ui-keywords.webp" width="1536" height="930" alt="Keyword research table" loading="lazy"></div>
+        <div class="window" id="tv-comp" role="tabpanel" aria-labelledby="tt-comp"><div class="window-bar"><div class="dots"><i></i><i></i><i></i></div><div class="url">…/chatdaddy/competitors</div></div><img src="https://ranking.bobwork.ai/img/ui-competitors.webp" width="1536" height="914" alt="Competitor analysis" loading="lazy"></div>
+        <div class="window" id="tv-bl" role="tabpanel" aria-labelledby="tt-bl"><div class="window-bar"><div class="dots"><i></i><i></i><i></i></div><div class="url">…/chatdaddy/backlinks</div></div><img src="https://ranking.bobwork.ai/img/ui-backlinks.webp" width="1536" height="1026" alt="Backlinks chart" loading="lazy"></div>
+        <div class="window" id="tv-rep" role="tabpanel" aria-labelledby="tt-rep"><div class="window-bar"><div class="dots"><i></i><i></i><i></i></div><div class="url">…/chatdaddy/report</div></div><img src="https://ranking.bobwork.ai/img/ui-report.webp" width="1832" height="1520" alt="One-page client report" loading="lazy"></div>
+      </div>
+    </div>
+
+    <div class="api" style="margin-top:120px">
+      <div class="reveal">
+        <span class="eyebrow">API &amp; MCP</span>
+        <h2 class="h-sub" style="margin:16px 0">Every check, from your code or your AI assistant.</h2>
+        <p class="lead" style="margin-bottom:24px">A REST API and an MCP server with 15 tools. Connect Claude Code, Claude Desktop or Cursor and ask in plain words. Same per-check prices as the app.</p>
+        <ul class="checklist" style="margin-bottom:28px">
+          <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Google results, AI answers and AI visibility</li>
+          <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Keywords, competitors, backlinks, page audits</li>
+          <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Included with the Growth plan</li>
+        </ul>
+        <a class="link-arrow" href="https://ranking.bobwork.ai/developers">Read the API docs →</a>
+      </div>
+      <div class="terminal reveal" data-d="1">
+        <div class="window-bar"><div class="dots"><i></i><i></i><i></i></div></div>
+        <pre><span class="p">$</span> claude mcp add --transport http ranking \
+    https://ranking.bobwork.ai/api/mcp \
+    --header "Authorization: Bearer rk_live_…"</pre>
+        <div class="chat">
+          <div class="msg you">Does ChatGPT name us for “best WhatsApp CRM”?</div>
+          <div class="msg tool">ai_answer · engine: chatgpt · named: no · cited: no · $0.048</div>
+          <div class="msg bot">Not yet. It names three competitors and cites g2.com and two comparison posts…</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AUDIENCE ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Who it’s for</span>
+      <h2 class="h-section">One tool, three ways in.</h2>
+    </div>
+    <div class="aud">
+      <a class="aud-card spot reveal" href="setup.html">
+        <span class="ico"><img src="https://ranking.bobwork.ai/img/icons/owner.webp" alt=""></span>
+        <span class="who">BUSINESS OWNERS</span>
+        <h3>You want customers, not another dashboard.</h3>
+        <p>We set it all up and count every lead ChatGPT sends. $299 once, then pay per lead, up to a cap you set.</p>
+        <span class="tags"><span class="chip purple">Done for you</span><span class="chip purple">Pay per lead</span></span>
+        <span class="link-arrow">Set it up for me →</span>
+      </a>
+      <a class="aud-card spot reveal" data-d="1" href="pricing.html">
+        <span class="ico"><img src="https://ranking.bobwork.ai/img/icons/marketer.webp" alt=""></span>
+        <span class="who">MARKETERS</span>
+        <h3>You need the number, and what moves it.</h3>
+        <p>Track buyer questions weekly on six engines, compare share of voice, and work through the pages to pitch.</p>
+        <span class="tags"><span class="chip blue">Share of voice</span><span class="chip blue">95% intervals</span></span>
+        <span class="link-arrow">See plans →</span>
+      </a>
+      <a class="aud-card spot reveal" data-d="2" href="pricing.html#plans">
+        <span class="ico"><img src="https://ranking.bobwork.ai/img/icons/agency.webp" alt=""></span>
+        <span class="who">AGENCIES</span>
+        <h3>Your clients are asking about ChatGPT.</h3>
+        <p>A project per client, a one-page report under your name, and every check over the API and MCP.</p>
+        <span class="tags"><span class="chip green">Client report PDF</span><span class="chip green">API + MCP</span></span>
+        <span class="link-arrow">See the Growth plan →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING TEASER ============ -->
+<section class="section wash" id="pricing">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Pricing</span>
+      <h2 class="h-section">Start with $1. Upgrade when it’s working.</h2>
+      <p class="lead">Pay per check, or let a plan run every week on its own.</p>
+    </div>
+    <div class="plans">
+      <div class="plan spot tilt reveal">
+        <div class="name">Pay per check</div>
+        <div class="price"><span class="amt">$1</span><span class="per">to start</span></div>
+        <div class="sub">Top up any amount</div>
+        <p class="desc">See where you stand before you pick a plan. Runs only when you press the button.</p>
+        <ul class="checklist">
+          <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>All 6 AI engines</li>
+          <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Alerts and Get listed</li>
+          <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Credit never expires</li>
+        </ul>
+        <a class="btn btn-outline" href="https://ranking.bobwork.ai/login">Start for $1</a>
+      </div>
+      <div class="plan spot tilt featured reveal" data-d="1">
+        <div class="name">Starter <span class="badge">WEEKLY AUTOPILOT</span></div>
+        <div class="price"><span class="amt">$39</span><span class="per">/month</span></div>
+        <div class="sub">or $390 a year, 2 months free</div>
+        <p class="desc">One brand, checked in every AI engine each week.</p>
+        <ul class="checklist">
+          <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>1 brand, 40 tracked prompts</li>
+          <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Weekly checks on all 6 engines</li>
+          <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>3 competitors tracked</li>
+        </ul>
+        <a class="btn btn-primary" href="https://ranking.bobwork.ai/login">Choose Starter</a>
+      </div>
+      <div class="plan spot tilt reveal" data-d="2">
+        <div class="name">Growth <span class="badge">FOR AGENCIES</span></div>
+        <div class="price"><span class="amt">$119</span><span class="per">/month</span></div>
+        <div class="sub">or $1,190 a year, 2 months free</div>
+        <p class="desc">Several brands or clients, with reports and the API.</p>
+        <ul class="checklist">
+          <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>3 brands, 125 tracked prompts</li>
+          <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>10 competitors, client reports</li>
+          <li><span class="ck"><svg width="12" height="12" viewBox="0 0 12 12"><path d="M2.5 6.2l2.3 2.3L9.5 3.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>API + MCP</li>
+        </ul>
+        <a class="btn btn-outline" href="https://ranking.bobwork.ai/login">Choose Growth</a>
+      </div>
+    </div>
+    <div class="dfy reveal">
+      <span class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></span>
+      <div><h3>Rather we do it? $299 once, then pay per lead.</h3><p>We fix crawler access and schema, claim listings, write your prompts and track every lead ChatGPT sends. First 10 leads free.</p></div>
+      <a class="btn btn-outline" href="setup.html">Set it up for me →</a>
+    </div>
+    <p style="text-align:center;margin-top:32px"><a class="link-arrow" href="pricing.html">Full pricing, per-check prices and a cost calculator →</a></p>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section">
+  <div class="container faq-wrap">
+    <div class="faq-side reveal">
+      <span class="eyebrow">FAQ</span>
+      <h2 class="h-section">Questions, answered straight.</h2>
+      <div class="reads">
+        <a href="https://ranking.bobwork.ai/blog/how-to-rank-on-chatgpt">How to rank on ChatGPT: 15 fixes <span>→</span></a>
+        <a href="https://ranking.bobwork.ai/blog">Where each AI engine looks for businesses <span>→</span></a>
+        <a href="https://ranking.bobwork.ai/blog">How to see ChatGPT traffic in GA4 <span>→</span></a>
+      </div>
+    </div>
+    <div class="faq reveal" data-d="1">
+      <details open><summary>What is GEO?</summary><p>Generative Engine Optimization: making sure AI assistants such as ChatGPT, Perplexity, Gemini, Claude and Google’s AI Overviews name your business and cite your pages when people ask about your category. It’s sometimes called AEO. Ranking measures it by asking the engines your prompts and keeping the answers.</p></details>
+      <details><summary>How do I get recommended by ChatGPT?</summary><p>Three steps. Let AI crawlers in and make your answers readable without JavaScript. Get listed where AI looks: business profiles, review sites, Wikidata and the pages that compare your category. Then measure by asking ChatGPT your buyers’ questions and tracking whether you’re named. Ranking has a tool for each step.</p></details>
+      <details><summary>How soon will I see results?</summary><p>You see where you stand as soon as the first checks run. Being named takes longer: AI engines pick up new listings, reviews and pages over weeks rather than days, and nobody can honestly promise when. Track weekly and watch the rate and its interval.</p></details>
+      <details><summary>Can I see traffic and sign-ups from ChatGPT?</summary><p>Yes, if you connect Google Analytics 4. Ranking checks daily for visits and sign-ups from ChatGPT, Perplexity, Gemini, Claude and Copilot, and emails you only when there are some. Included for everyone; one click turns it off.</p></details>
+      <details><summary>How do you measure AI visibility?</summary><p>For each prompt and engine we store the full answer, the brands it names in order, and the sources it cites. Visibility is the share of answers that name you, shown with a 95% Wilson confidence interval.</p></details>
+      <details><summary>Do I need an llms.txt file?</summary><p>We don’t score it. In our own tests AI crawlers almost never fetched llms.txt. Crawler access in robots.txt and answers visible without JavaScript matter far more, and the site audit checks both.</p></details>
+      <details><summary>Who makes Ranking?</summary><p>BobWork (BobOffice, LLC), the team behind bobwork.ai. Ranking is new and in early access, so we don’t show customer logos or usage numbers we don’t have yet.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="final dark">
+  <div class="hero-bg" aria-hidden="true"><div class="glow g1"></div><div class="glow g2"></div></div>
+  <div class="container">
+    <div class="orbit reveal" aria-hidden="true">
+      <div class="orbit-ring">
+        <div class="orbit-floor"></div>
+        <span style="--i:0"><img src="https://ranking.bobwork.ai/img/logos/chatgpt.png" alt=""></span>
+        <span style="--i:1"><img src="https://ranking.bobwork.ai/img/logos/perplexity.svg" alt=""></span>
+        <span style="--i:2"><img src="https://ranking.bobwork.ai/img/logos/gemini.svg" alt=""></span>
+        <span style="--i:3"><img src="https://ranking.bobwork.ai/img/logos/claude.svg" alt=""></span>
+        <span style="--i:4"><img src="https://ranking.bobwork.ai/img/logos/google.svg" alt=""></span>
+        <span style="--i:5"><img src="https://ranking.bobwork.ai/img/logos/google.svg" alt=""></span>
+        <div class="orbit-core"><img src="assets/mark.svg" alt=""></div>
+      </div>
+    </div>
+    <h2 class="reveal" style="max-width:none">Buyers ask AI who to buy from.<br><span class="grad-text">Be the name it gives.</span></h2>
+    <p class="lead reveal" data-d="1">Add your site and the questions your buyers ask. See what ChatGPT says about you in minutes.</p>
+    <div class="hero-ctas reveal" data-d="2">
+      <a class="btn btn-primary btn-lg" href="https://ranking.bobwork.ai/login">Start for $1 <span class="arrow">→</span></a>
+      <a class="btn btn-ghost btn-lg" href="setup.html">Set it up for me</a>
+    </div>
+    <p class="muted" style="font-size:14px">Credit never expires · Plans from $39/mo · Cancel any time</p>
+  </div>
+</section>
+
+</main>
+
+<div class="sticky-cta" data-sticky-cta>
+  <div><b>Start for $1</b><small>No plan needed · credit never expires</small></div>
+  <a class="btn btn-primary btn-sm" href="https://ranking.bobwork.ai/login">Get started</a>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img src="assets/mark.svg" alt="" width="30" height="30"><span><span class="brand-name">Ranking</span><span class="brand-by">BY BOBWORK</span></span></a>
+        <p class="blurb">We help you get recommended by ChatGPT, Perplexity, Gemini, Claude and Google’s AI.</p>
+      </div>
+      <div><h4>Product</h4><ul>
+        <li><a href="https://ranking.bobwork.ai/features/ai-visibility">AI visibility</a></li>
+        <li><a href="https://ranking.bobwork.ai/features/get-listed">Get listed</a></li>
+        <li><a href="https://ranking.bobwork.ai/features/ai-traffic-alerts">AI traffic alerts</a></li>
+        <li><a href="https://ranking.bobwork.ai/features/site-audit">Site audit for AI</a></li>
+      </ul></div>
+      <div><h4>SEO tools</h4><ul>
+        <li><a href="https://ranking.bobwork.ai/features/rank-tracker">Rank tracker</a></li>
+        <li><a href="https://ranking.bobwork.ai/features/keyword-research">Keyword research</a></li>
+        <li><a href="https://ranking.bobwork.ai/features/competitor-analysis">Competitor analysis</a></li>
+        <li><a href="https://ranking.bobwork.ai/features/backlinks">Backlinks</a></li>
+      </ul></div>
+      <div><h4>Buy</h4><ul>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="setup.html">Set it up for me</a></li>
+        <li><a href="https://ranking.bobwork.ai/developers">API &amp; MCP</a></li>
+        <li><a href="https://ranking.bobwork.ai/login">Sign in</a></li>
+      </ul></div>
+      <div><h4>Learn</h4><ul>
+        <li><a href="https://ranking.bobwork.ai/blog">Blog</a></li>
+        <li><a href="https://ranking.bobwork.ai/blog/how-to-rank-on-chatgpt">How to rank on ChatGPT</a></li>
+        <li><a href="https://ranking.bobwork.ai/blog/ranking-vs-se-ranking">Ranking vs SE Ranking</a></li>
+        <li><a href="https://ranking.bobwork.ai/contact">Contact</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BobOffice, LLC · <a href="https://bobwork.ai">BobWork</a></span>
+      <nav><a href="https://ranking.bobwork.ai/privacy">Privacy</a><a href="https://ranking.bobwork.ai/terms">Terms</a><a href="https://ranking.bobwork.ai/contact">Contact</a></nav>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // 54 answers without our name in the question; 3 named us.
+  (function () {
+    var g = document.getElementById('dotgrid'); if (!g) return;
+    var on = [7, 25, 41];
+    for (var i = 0; i < 54; i++) { var d = document.createElement('i'); d.style.setProperty('--i', i); if (on.indexOf(i) > -1) d.className = 'on'; g.appendChild(d); }
+  })();
+</script>
+</body>
+</html>
